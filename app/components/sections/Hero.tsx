@@ -75,7 +75,7 @@ export default function Hero() {
           transition={{ duration: 2 }}
           className="flex justify-center md:justify-end"
         >
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-secondary shadow-lg">
+          <div className="relative w-80 h-80 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-secondary shadow-lg">
             <Image
               src="/images/sanya.jpg"
               alt="Photo de Sanya Andriamalaza"

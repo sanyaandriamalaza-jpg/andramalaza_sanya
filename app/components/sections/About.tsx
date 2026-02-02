@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="max-w-6xl mx-auto  flex flex-col"
+      className="max-w-6xl mx-auto  flex flex-col mb-44"
     >
       {/* TITRE */}
       <motion.h2
