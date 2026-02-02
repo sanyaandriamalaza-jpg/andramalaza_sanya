@@ -43,7 +43,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 pt-4">
             <a
-              href="/cv.pdf"
+              href="https://cvdesignr.com/p/65d3983945c43"
               className={`group relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium text-base overflow-hidden transition-all duration-500 bg-secondary text-background hover:text-secondary`}
             >
               <span className="relative z-10">Voir mon CV</span>

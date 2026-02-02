@@ -34,11 +34,11 @@ export default function Contact() {
   return (
     <section id="contact" className="max-w-6xl mx-auto flex flex-col mb-44">
       {/* Header */}
-      <div className="mb-12 max-w-6xl">
-        <h2 className="text-3xl font-bold tracking-tight text-center md:text-4xl text-primary">
+      <div className="mb-8 max-w-6xl text-center">
+        <h2 className="text-3xl font-bold tracking-tight md:text-4xl text-primary">
           Me contacter
         </h2>
-        <p className="mt-3 text-muted-foreground">
+        <p className="mt-8 text-muted-foreground">
           Une idée, un projet ou simplement envie d’échanger ? Laisse-moi un
           message, je te répondrai avec plaisir.
         </p>
@@ -136,7 +136,7 @@ export default function Contact() {
               <a
                 href="https://github.com/sanyaandriamalaza"
                 target="_blank"
-                className="rounded-full border p-3 transition hover:bg-accent"
+                className="rounded-full border p-3 transition hover:bg-muted hover:border-muted hover:text-foreground"
               >
                 <Github className="h-5 w-5" />
               </a>
@@ -144,7 +144,7 @@ export default function Contact() {
               <a
                 href="https://linkedin.com/in/sanya-andriamalaza"
                 target="_blank"
-                className="rounded-full border p-3 transition hover:bg-accent"
+                className="rounded-full border p-3 transition hover:bg-muted hover:border-muted hover:text-foreground"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
