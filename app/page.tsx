@@ -1,3 +1,4 @@
+import About from "./components/sections/About";
 import Hero from "./components/sections/Hero";
 
 export default function HomePage() {
@@ -5,6 +6,7 @@ export default function HomePage() {
     <>
       <main >
         <Hero />
+        <About />
       </main>
     </>
   );
