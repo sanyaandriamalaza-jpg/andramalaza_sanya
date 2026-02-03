@@ -134,7 +134,7 @@ export default function Contact() {
 
             <div className="flex gap-4">
               <a
-                href="https://github.com/sanyaandriamalaza"
+                href="https://github.com/sanyaandriamalaza-jpg"
                 target="_blank"
                 className="rounded-full border p-3 transition hover:bg-muted hover:border-muted hover:text-foreground"
               >
@@ -142,7 +142,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com/in/sanya-andriamalaza"
+                href="https://linkedin.com/in/sanya-andriamalaza-8b6369266"
                 target="_blank"
                 className="rounded-full border p-3 transition hover:bg-muted hover:border-muted hover:text-foreground"
               >

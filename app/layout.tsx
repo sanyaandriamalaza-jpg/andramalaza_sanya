@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className="bg-background text-foreground transition-colors duration-300">
+      <body className="bg-linear-to-b from-gray-900 via-gray-800 to-gray-100 text-foreground transition-colors duration-300">
         <ThemeProvider>
           <Navbar />
           {children}
