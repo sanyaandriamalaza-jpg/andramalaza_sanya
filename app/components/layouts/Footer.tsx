@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           {/* Identité */}
           <div>
-            <p className="text-lg font-semibold">
+            <p className="text-lg font-semibold text-primary">
               Sanya Andriamalaza
             </p>
             <p className="text-sm text-muted-foreground">
@@ -67,7 +67,7 @@ export default function Footer() {
             <a
               href="mailto:sanya.andriamalaza@email.com"
               aria-label="Email"
-              className="rounded-full border p-2 transition hover:bg-muted hover:border-muted hover:text-foreground"
+              className="rounded-full border p-2 transition hover:bg-muted/10 hover:border-muted/10 hover:text-foreground"
             >
               <Mail className="h-4 w-4" />
             </a>
@@ -76,7 +76,7 @@ export default function Footer() {
               href="https://github.com/sanyaandriamalaza-jpg"
               target="_blank"
               aria-label="GitHub"
-              className="rounded-full border p-2 transition hover:bg-muted hover:border-muted hover:text-foreground"
+              className="rounded-full border p-2 transition hover:bg-muted/10 hover:border-muted/10 hover:text-foreground"
             >
               <Github className="h-4 w-4" />
             </a>
@@ -85,7 +85,7 @@ export default function Footer() {
               href="https://linkedin.com/in/sanya-andriamalaza-8b6369266"
               target="_blank"
               aria-label="LinkedIn"
-              className="rounded-full border p-2 transition hover:bg-muted hover:border-muted hover:text-foreground"
+              className="rounded-full border p-2 transition hover:bg-muted/10 hover:border-muted/10 hover:text-foreground"
             >
               <Linkedin className="h-4 w-4" />
             </a>

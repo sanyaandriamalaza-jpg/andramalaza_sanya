@@ -4,6 +4,7 @@ import "./globals.css";
 import ThemeProvider from "./providers/ThemeProviders";
 import Navbar from "./components/layouts/NavBar";
 import Footer from "./components/layouts/Footer";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,12 +28,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className="bg-linear-to-b from-gray-900 via-gray-800 to-gray-100 text-foreground transition-colors duration-300">
+      <body className="bg-background text-foreground transition-colors duration-300">
         <ThemeProvider>
           <Navbar />
           {children}
           <Footer />
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
   );

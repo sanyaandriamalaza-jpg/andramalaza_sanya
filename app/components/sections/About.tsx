@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Layout, Database, Palette } from "lucide-react";
+import { Code, Database, Cog } from "lucide-react";
 
 const skills = [
   { icon: Code, title: "Développement Frontend", desc: "React.js, Next.js, Tailwind CSS" },
-  { icon: Layout, title: "UI / UX Design", desc: "Wireframes, Prototypes, Responsive Design" },
-  { icon: Database, title: "Backend & DB", desc: "Node.js, Express, MySQL" },
+  { icon: Cog, title: "Outils", desc: "Git, Figma, Postman" },
+  { icon: Database, title: "Backend & DB", desc: "Node.js, Express, MySQL, TypeScript, Laravel" },
 ];
 
 export default function About() {
   return (
     <section
       id="about"
-      className="max-w-6xl mx-auto  flex flex-col mb-44"
+      className="max-w-6xl mx-auto flex flex-col mb-20 sm:mb-36 px-4 sm:px-0"
     >
       {/* TITRE */}
       <motion.h2
@@ -47,7 +47,7 @@ export default function About() {
 
       {/* CARDS SKILLS */}
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -59,15 +59,15 @@ export default function About() {
         {skills.map((skill, idx) => (
           <motion.div
             key={idx}
-            className="flex flex-col items-center text-center p-6 bg-foreground/50 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
+            className="flex flex-col items-center text-center p-4 sm:p-6 bg-foreground/10 rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 }
             }}
           >
-            <skill.icon className="text-primary mb-4" size={36} />
-            <h3 className="font-semibold text-lg mb-2">{skill.title}</h3>
-            <p className="text-muted text-sm">{skill.desc}</p>
+            <skill.icon className="text-primary mb-3 w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10" />
+            <h3 className="font-semibold text-sm sm:text-lg mb-2">{skill.title}</h3>
+            <p className="text-muted text-xs sm:text-sm">{skill.desc}</p>
           </motion.div>
         ))}
       </motion.div>
